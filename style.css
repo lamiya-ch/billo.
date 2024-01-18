@@ -1,0 +1,280 @@
+.main {
+    background-image: url(cover_1.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    
+
+}
+
+
+.blur {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    margin: 0;
+    background: linear-gradient(rgba(17, 7, 254, 0.7), rgba(0, 224, 254, 0.7));
+    z-index: -1;
+
+}
+
+.contents {
+    margin-top: 200px;
+}
+.divider{
+    height: 4px;
+    width: 70px;
+    background: linear-gradient(to right,#00e0fe, #1107fe);
+    margin: 16px auto;
+}
+
+
+
+.btn {
+    background: linear-gradient(to right, #00e0fe, #1107fe);
+    border-radius: 100px;
+    border: none;
+    font-weight: 600;
+    color: #fff;
+    
+}
+.icon2{
+   
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    
+}
+
+.bi-credit-card-2-front{
+    font-size: 50px;
+    width: 90px;
+    height: 90px;
+    background: linear-gradient(to right,#00e0fe, #1107fe);
+    color: #fff;
+    border-radius: 100px;
+    text-align: center;
+    
+    
+}
+.bi-bar-chart-line{
+    font-size: 50px;
+    width: 90px;
+    height: 90px;
+    background: linear-gradient(to right,#00e0fe, #1107fe);
+    color: #fff;
+    border-radius: 100px;
+    text-align: center;
+
+}
+.bi-camera{
+    font-size: 50px;
+    width: 90px;
+    height: 90px;
+    background: linear-gradient(to right,#00e0fe, #1107fe);
+    color: #fff;
+    border-radius: 100px;
+    text-align: center;
+
+}
+
+/* .icon1{
+    background: -webkit-linear-gradient(#00e0fe, #1107fe);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 54px;
+} */
+.bi-pencil{
+    background: -webkit-linear-gradient(#00e0fe, #1107fe);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 54px;
+
+}
+.bi-calendar2{
+    background: -webkit-linear-gradient(#00e0fe, #1107fe);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 54px;
+
+}
+.bi-calendar3{
+    background: -webkit-linear-gradient(#00e0fe, #1107fe);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 54px;
+
+    
+}
+.bi-camera-fill{
+    background: -webkit-linear-gradient(#00e0fe, #1107fe);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 54px;
+
+}
+.bi-scissors{
+    background: -webkit-linear-gradient(#00e0fe, #1107fe);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 54px;
+
+
+}
+.bxs-dog{
+    background: -webkit-linear-gradient(#00e0fe, #1107fe);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 59px;
+
+
+}
+
+
+.video-btn {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(to right, #00e0fe, #1107fe);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 100px;
+}
+
+.video-btn i {
+    font-size: 32px;
+}
+
+
+
+.img {
+    background-image: url(cover_3.jpg);
+    position: relative;
+    height: 50vh;
+    z-index: 1;
+    background-position: center;
+    background-size: cover;
+}
+
+/* .icon{
+    width: 90px;
+    height: 90px;
+    background: linear-gradient(to right,#00e0fe, #1107fe);
+    color: #fff;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: -45px;
+    left: 50%;
+    transform: translateX(-50%);
+} */
+.icon3 i {
+    font-size: 36px;
+    color: #fff;
+
+
+}
+.bx-camera{
+    font-size: 40px;
+    color: #fff;
+    padding-top: 16px;
+
+}
+
+
+
+.headings1 {
+    height: 60vh;
+}
+
+.img1 {
+    background-image: url(cover_2.jpg);
+    position: relative;
+    height: 38vh;
+    z-index: -1;
+    background-position: center;
+    background-size: cover;
+}
+
+.review {
+    box-shadow: 0 12px 12px rgba(0, 0, 0, 0.1);
+}
+
+.review .person {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+    padding-bottom: 18px;
+}
+
+.review .person img {
+    width: 75px;
+    height: 75px;
+    border-radius: 100px;
+}
+
+.review .stars {
+    color: orange;
+}
+
+.contents5 {
+    background-color: rgb(252, 248, 248);
+}
+
+.img6 {
+    background-image: url(cover_3.jpg);
+    position: relative;
+    height: 100vh;
+    z-index: 1;
+    background-position: center;
+    background-size: cover;
+}
+
+form .form-control {
+    border-radius: 0;
+    background: transparent;
+    color: #fff;
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+form .form-control:focus {
+    color: #fff;
+    background: transparent;
+    border-color: #fff;
+}
+
+form input.form-control {
+    height: 54px;
+}
+
+form .form-control::placeholder {
+    color: #fff;
+}
+
+footer {
+    background: linear-gradient(to right, #00e0fe, #1107fe);
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+}
+
+@media screen and (max-width:576px){
+    .img1{
+        height: 100vh;
+    }
+}
+@media screen and (min-width:576px) and (max-width:992px){
+    .img1{
+        height: 100vh;
+    }
+}
